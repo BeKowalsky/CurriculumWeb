@@ -1,0 +1,43 @@
+.escolaridade {
+    border: 5px solid #084258;
+    background-color: #084258;
+    border-radius: 10px;
+    padding: 50px;
+    text-align:center;
+    max-width: 50%;
+    margin-top: -30px;
+}
+
+#salesiano {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#univali {
+    height: 200px;
+    width: 250px;
+    margin-top:75px;
+}
+
+#kumon {
+    height: 200px;
+    width: 250px;
+    margin-top:75px;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-device-width: 415px){
+    #salesiano, #univali, #kumon {
+        width: 200px;
+    }
+    .escolaridade {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-device-width: 1100px) {
+    .escolaridade {
+        max-width: 100%;
+    }
+}

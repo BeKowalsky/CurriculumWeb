@@ -1,0 +1,89 @@
+.certificados {
+    border: 5px solid #084258;
+    background-color: #084258;
+    border-radius: 10px;
+    padding: 50px;
+    text-align:center;
+    max-width: 50%;
+    margin-top: -30px;
+}
+
+.certificado label {
+    display: block;
+    padding: 10px;
+    background-color: #065270;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    border-bottom: solid 2px #008dc5;
+}
+
+.certificado label:hover {
+    background-color: #006f9b ;
+}
+
+.certificado ul {
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+    max-height: 0;
+    transition: all .5s ease-out;
+}
+
+.certificado li {
+    color: #FFF;
+}
+
+.certificado a {
+    color: #6ef1ff;
+}
+
+.certificado a:visited {
+    color: #0094a5;
+}
+
+.certificado input {
+    display: none;
+}
+
+.certificado ul li img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: block;
+}
+
+.certificado input:checked ~ ul {
+    height: auto;
+    max-height: 100%;
+    padding: 20px;
+    background-color: #065270;
+    transform: all;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-device-width: 639px){
+    .certificados {
+        max-width: 100%;
+        padding: 20px;
+    }
+    
+    .certificado ul li img{
+        padding: 0;
+    }
+
+    .certificado input:checked ~ ul {
+        padding: 10px;
+    }
+
+    .certificado label{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-device-width: 1100px) {
+    .certificados {
+        max-width: 100%;
+        padding: 20px;
+    }
+}

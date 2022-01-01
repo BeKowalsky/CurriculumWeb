@@ -8,6 +8,10 @@
     margin-top: -30px;
 }
 
+.objective p {
+    text-align: justify;   
+}
+
 .objective img {
     width: 50%;
     height: auto;

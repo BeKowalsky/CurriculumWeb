@@ -8,6 +8,10 @@
     margin-top: 100px;
 }
 
+.about p {
+    text-align: justify;
+}
+
 .about a {
     color: #6ef1ff;
 }

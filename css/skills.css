@@ -16,6 +16,7 @@
 
 .skills p {
     margin-bottom: 50px;
+    text-align: justify;
 }
 
 .skills p:last-of-type{

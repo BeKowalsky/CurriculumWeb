@@ -21,6 +21,15 @@
     let balaoCertificados = document.getElementById('balaoCertificados');
     let balaoContact = document.getElementById('balaoContact');
     let balaoFinal = document.getElementById('balaoFinal');
+    
+    
+    let footer = document.getElementById('rodape');
+
+    anoAtual = new Date().getFullYear();
+    console.log(anoAtual);
+    console.log(footer);
+
+    footer.innerText = `Copyright © ${anoAtual} - Bernardo Magueta Kowalsky`;
 
     //Animar os elementos quando detectar o Scroll
     window.addEventListener('scroll', function() {
